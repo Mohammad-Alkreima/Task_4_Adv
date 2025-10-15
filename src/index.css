@@ -14,6 +14,15 @@
     --active-link: #D7E6EA;
 }
 
+.marginBottom {
+  margin-bottom: 94px;
+}
+
+.paddingLeftRight {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -24,5 +33,14 @@
 @media screen and (max-width: 992px) {
     :root {
         --padding-left-right: 20px;
+    }
+
+    .marginBottom {
+      margin-bottom: 64px;
+    }
+
+    .paddingLeftRight {
+      padding-left: 20px;
+      padding-right: 20px;
     }
 }

@@ -5,7 +5,7 @@ import "./Hero.css"
 
 const Hero = () => {
     return (
-        <div className="hero">
+        <div className="hero marginBottom">
             <TitleSection title="Discover a place you will love to live"
                         desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet tempus felis vitae sit est quisque."
             />

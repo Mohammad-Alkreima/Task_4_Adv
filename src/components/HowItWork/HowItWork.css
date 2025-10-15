@@ -1,0 +1,16 @@
+.howItWork {
+    .allCardsWork {
+        display: flex;
+        justify-content: space-between;
+        gap: 43px
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .howItWork {
+        .allCardsWork {
+            flex-direction: column;
+            gap: 20px;
+        }
+    }
+}

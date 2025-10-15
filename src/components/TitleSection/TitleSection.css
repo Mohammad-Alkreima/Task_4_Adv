@@ -6,10 +6,22 @@
         color: var(--color-text);
     }
     .desc {
+        margin: 5px 0px 56px;
         font-weight: 400;
         font-size: 15px;
         line-height: 22px;
         color: var(--color-text-opacity);
     }
+}
 
+@media screen and (max-width: 992px) {
+    .titleSection {
+        max-width: 355.08px;
+        .title {
+            font-size: 30px
+        }
+        .desc {
+            margin: 6px 0px 42px;
+        }
+    }
 }

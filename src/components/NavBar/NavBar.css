@@ -45,6 +45,7 @@ nav {
         width: 100%;
         background-color: var(--color-white);
         position: fixed;
+        z-index: 100;
         li:first-child {
             margin-top: 90px;
             background-color: var(--active-link);
