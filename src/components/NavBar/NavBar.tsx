@@ -26,7 +26,6 @@ const NavBar = ({logo, items, btn, burger, close} : NavBarProps) => {
                     })}
                 </ul>
                 <button className="login">{btn}</button>
-                {/* <img className="burgerIcon" onClick={showHandle} src={burger} alt="burger icon" /> */}
                 <img className="burgerIcon" onClick={showHandle} src={show ? close : burger} alt="burger icon & close icon" />
             </nav>
             <div className={`navMenu ${show ? "show" : ""}`}>

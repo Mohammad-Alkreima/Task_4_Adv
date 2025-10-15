@@ -41,11 +41,9 @@ nav {
 .navMenu.show {
     height: 90px;
     display: block;
-    img {
-
-    }
     ul {
         width: 100%;
+        background-color: var(--color-white);
         position: fixed;
         li:first-child {
             margin-top: 90px;

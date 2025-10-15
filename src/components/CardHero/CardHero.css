@@ -1,0 +1,37 @@
+.cardHero {
+    display: flex;
+    align-items: center;
+    gap: 19.97px;
+    .img {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background-color: #0255951e;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    div {
+        h2 {
+            margin-bottom: 10px;
+            font-size: 16px;
+            font-weight: 500;
+            color: var(--color-text);
+        }
+        p {
+            font-size: 16px;
+            font-weight: 400;
+            color: var(--color-text-opacity);
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .cardHero {
+        div {
+            p {
+                font-size: 15px;
+            }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+.titleSection {
+    max-width: 529px;
+    .title {
+        font-weight: 700;
+        font-size: 39px;
+        color: var(--color-text);
+    }
+    .desc {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+        color: var(--color-text-opacity);
+    }
+
+}
