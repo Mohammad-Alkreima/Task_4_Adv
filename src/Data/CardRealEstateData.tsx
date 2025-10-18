@@ -20,7 +20,7 @@ const CardRealEstateData = [
     },
     {
         type: "Commercial Property",
-        img: "/Task_4_Adv/assets/img/Image 03.jpg",
+        img: "/Task_4_Adv/assets/img/Image 02.jpg",
         text: "Featured",
         span: "3D"
     },
@@ -38,13 +38,13 @@ const CardRealEstateData = [
     },
     {
         type: "Industrial Property",
-        img: "/Task_4_Adv/assets/img/Image 03.jpg",
+        img: "/Task_4_Adv/assets/img/Image 01.jpg",
         text: "Featured",
         span: "3D"
     },
     {
         type: "Industrial Property",
-        img: "/Task_4_Adv/assets/img/Image 01.jpg",
+        img: "/Task_4_Adv/assets/img/Image 02.jpg",
         text: "Featured",
         span: "3D"
     },

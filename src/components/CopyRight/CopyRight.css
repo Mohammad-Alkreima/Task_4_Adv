@@ -1,0 +1,29 @@
+.copyRight {
+    margin: 24px 0px;
+    display: flex;
+    justify-content: space-between;
+    .copy {
+        font-size: 14px;
+        font-weight: 400;
+        color: var(--color-text);
+    }
+    .termspolicy {
+            display: flex;
+            gap: 29.82px;
+            p {
+                font-size: 14px;
+                font-weight: 400;
+                color: var(--color-text);
+            }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .copyRight {
+        flex-direction: column;
+        gap: 16px;
+        .copy {
+            white-space: nowrap;
+        }
+    }
+}

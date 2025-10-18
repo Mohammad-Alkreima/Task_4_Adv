@@ -26,6 +26,21 @@
         color: var(--color-white);
     }
 }
+.cardWork:nth-child(1):hover {
+    img {
+        content: url("/assets/img/search-white.svg");
+    }
+}
+.cardWork:nth-child(2):hover {
+    img {
+        content: url("/assets/img/click.svg");
+    }
+}
+.cardWork:nth-child(3):hover {
+    img {
+        content: url("/assets/img/Frame-white.svg");
+    }
+}
 
 @media screen and (max-width: 992px) {
     .cardWork {

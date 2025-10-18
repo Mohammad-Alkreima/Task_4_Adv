@@ -6,7 +6,7 @@ const CardWorkData = [
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet tempus felis vitae."
     },
     {
-        icon: "/Task_4_Adv/assets/img/search.svg",
+        icon: "/Task_4_Adv/assets/img/click-main-color.svg",
         title: "Select Apartment",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet tempus felis vitae."
     },

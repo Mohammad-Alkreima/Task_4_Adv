@@ -11,11 +11,17 @@
             color: var(--color-text);
             white-space: nowrap;
             cursor: pointer;
+            transition: 0.3s ease-in all;
             &.active {
                 padding-bottom: 15px;
                 border-bottom: 2px solid var(--main-color);
                 color: var(--main-color);
             }
+        }
+        .filterText:hover {
+            padding-bottom: 15px;
+            border-bottom: 2px solid var(--main-color);
+            color: var(--main-color);
         }
     }
     .cardsGallery {
