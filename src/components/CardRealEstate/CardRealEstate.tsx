@@ -9,7 +9,7 @@ interface CardRealProps {
 const CardRealEstate = ({img, text, span} : CardRealProps) => {
     return (
         <div className="cardReal">
-            <img src={img} alt="" />
+            <img src={img} alt="house furniture" />
             <p>{text}</p>
             <span>{span}</span>
         </div>
